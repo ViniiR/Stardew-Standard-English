@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "LogName": "EditData/Data/Mail Dialogue",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "spring_12": "Dear @,^Tomorrow we're holding the Egg Festival in the town square. ^^You should arrive between 09:00 - 14:00 if you'd like to attend.^You wouldn't want to miss the annual egg hunt!^  -Mayor Lewis[#]Egg Festival Notice",
+                "spring_23": "Dear @,^Tomorrow we're all getting together for the Flower Dance.^^If you can find a partner, you might even want to participate in the dance yourself!^There's a little clearing beyond the forest west of town where we hold the dance. Arrive between 09:00 - 14:00 if you're interested.^  -Mayor Lewis[#]Flower Dance Notice",
+                "summer_10": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Luau.^^The highlight of the event is the communal potluck. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 09:00 - 14:00.^   -Mayor Lewis[#]Luau Notice",
+                "summer_28": "Dear @,^Tonight at around 22:00, a rare and beautiful event will take place.^^The moonlight jellies will be passing by Pelican Town on their long journey south for the winter.^^We're all gathering at the beach to watch. You don't want to miss this!^See you tonight,^ -Demetrius[#]Dance Of The Moonlight Jellies",
+                "fall_9": "Dear @,^One week from today, we are holding the Stardew Valley Fair in the town square!^It's the biggest event of the year, drawing people from all across the country to our humble town.^If you'd like, you can set up a grange display for the event. Just bring up to 9 items that best showcase your talents. You'll be judged on the quality and diversity of your display.^The fair starts at 09:00... don't miss it!^   -Mayor Lewis[#]Stardew Valley Fair Notice",
+                "fall_26": "Dear @,^Notice a chill in the air? It could just be the approach of winter...^Or it could be the tingle of a dark specter, here to help us celebrate tomorrow's festival... the Spirit's Eve.^Come to town at 22:00 if you'd like to participate.^  -Mayor Lewis[#]Spirit's Eve Notice",
+                "winter_7": "Dear @,^Tomorrow we're all gathering in front of Marnie's house for the Festival of Ice.^^It's a celebration of winter... there'll be snowmen, ice sculptures, and an ice fishing competition!^Arrive between 09:00 - 14:00 if you'd like to participate.^  -Mayor Lewis[#]Festival Of Ice Notice",
+                "winter_24": "Dear @,^Tomorrow is the Feast of the Winter Star.^Did you get a gift for your 'secret friend'... %secretsanta?^The feast starts at 09:00 in the town square. See you then! ^   -Mayor Lewis[#]Feast Of The Winter Star Reminder",
+                "passedOut4": "@, ^^Found you face-down in the mud during my 03:00 sweep.^^You should try to make it home a little earlier next time!^^     -Marlon[#]Note From Marlon"
+            }
+        }
+    ]
+}

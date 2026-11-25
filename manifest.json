@@ -1,0 +1,10 @@
+{
+    "Name": "Standard English",
+    "Author": "Vinii",
+    "Version": "1.0.0",
+    "Description": "Displays units in the metric system and time with the 24h clock",
+    "UniqueID": "Vinii.en-std",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

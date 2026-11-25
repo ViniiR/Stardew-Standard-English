@@ -1,0 +1,154 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalLanguages",
+            "Entries": {
+                "Vinii.en-std": {
+                    "ID": "Vinii.en-std",
+                    "LanguageCode": "en-std",
+                    "ButtonTexture": "Mods/Vinii.en-std/Button",
+                    "UseLatinFont": true,
+                    "TimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockTimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockDateFormat": "[DAY_OF_WEEK]. [DAY_OF_MONTH]"
+                }
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/Vinii.en-std/Button",
+            "FromFile": "assets/Button.png"
+        },
+        {
+            "LogName": "Minigames/Intro Sign",
+            "Action": "EditImage",
+            "Target": "Minigames/Intro",
+            "When": {
+                "Language": "en-std"
+            },
+            "FromFile": "assets/Minigames/IntroMetric.png",
+            "ToArea": {
+                "X": 48,
+                "Y": 176,
+                "Width": 64,
+                "Height": 80
+            }
+        },
+
+        {
+            "Action": "Include",
+            "FromFile": "assets/Data/mail.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Data/Quests.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Data/Events/Farm.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/Characters.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/Locations.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/StringsFromCSFiles.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/StringsFromMaps.json",
+            "When": {
+                "Language": "en-std"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "When": {
+                "Language": "en-std"
+            },
+            "Entries": {
+                "TV.cs.13181": "Expect a few centimeters of snow tomorrow.",
+                "FishingRod.cs.14083": "{0} cm"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex.json",
+            "When": {
+                "Language": "en-std"
+            },
+            "Entries": {
+                "Resort_Shore": "I wonder how far I could swim out, and still make it back?#$e#I'm guessing at least 1.5 km.#$b#... Don't worry, I'm not going to try it.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott.json",
+            "When": {
+                "Language": "en-std"
+            },
+            "Entries": {
+                "Resort_Leaving_2": "Hopefully a crab hasn't snuck onto my clothes again.$s#$b#Imagine crawling out of a pocket and finding yourself on a beach hundreds of kilometers from home!$h#$e#Hmmm... Perhaps this could make for an interesting novel..."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley.json",
+            "When": {
+                "Language": "en-std"
+            },
+            "Entries": {
+                "Mon": "This town is so small. It sucks.$u#$e#I have to drive, like, 30 km to buy any decent clothes.$s#$e#That's why I usually just order online.#$e#What?"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueShane",
+            "When": {
+                "Language": "en-std"
+            },
+            "Entries": {
+                "Indoor_Night_3": "Buh... I wish I was 15 cm taller and a whole lot smarter...#$e#You like me for who I am? I still have a hard time understanding that..."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Movies",
+            "When": {
+                "Language": "en-std"
+            },
+            "Entries": {
+                "NaturalWonders_Scene2": "The Fern Islands, a tropical paradise 130 km off the southern coast. The islands formed due to volcanic activity in the region, and are still growing...",
+                "ItHowlsInTheRain_Scene2": "'The following footage was salvaged from an abandoned camcorder 50 km south of Grampleton'"
+            }
+        }
+    ]
+}

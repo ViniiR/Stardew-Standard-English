@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "EditData/Strings/StringsFromCSFiles Opening Times",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "MapPage.cs.11069": "Open 09:00 - 16:00 most days",
+                "MapPage.cs.11077": "Open 09:00 - 15:00",
+                "MapPage.cs.11080": "Open 09:00 - 17:00 (Closed Wednesday)",
+                "MapPage.cs.11080_ExtendedHours": "Open 09:00 - 17:00",
+                "MapPage.cs.11082": "Open 09:00 - 16:00",
+                "MapPage.cs.11084": "Open 12:00 - 00:00",
+                "MapPage.cs.11087": "Open 08:00 - 18:00",
+                "MapPage.cs.11096": "Shop open 09:00 - 17:00 most days",
+                "MapPage.cs.11100": "Open 14:00 - 02:00",
+                "MovieTheater_Hours": "(Open 09:00 - 21:00)",
+                "MapPage.cs.11106": "Open 09:00 - 23:00",
+                "MapPage.cs.11108": "Open 09:00 - 17:00",
+                "MapPage.cs.11108_newHours": "Open 08:00 - 17:00"
+            }
+        }
+    ]
+}

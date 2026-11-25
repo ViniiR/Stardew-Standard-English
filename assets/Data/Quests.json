@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "EditData/Quests",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "22": "Basic/Fish Casserole/Jodi swung by the farm to ask you to dinner at 19:00. Her only request was that you bring a largemouth bass for her fish casserole./Enter Jodi's house with a largemouth bass at 19:00./-1/-1/0/-1/true"
+            }
+        }
+    ]
+}
